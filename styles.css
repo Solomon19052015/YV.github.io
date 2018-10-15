@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Tahoma"; /* Имя шрифта */
+  src: url(fonts/9688.ttf); /* Путь к файлу со шрифтом */
+ }
+
 body {
   margin: 0;
   padding: 0;
