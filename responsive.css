@@ -1,0 +1,26 @@
+@media(max-width: 800px){
+  body .bottom{
+   width: 90%;
+   
+  }
+  body .bottom h2{
+    font-size: 16px;
+  }
+  body .cent{
+    width: 90%;
+  }
+  body .logo h1.yy, body .logo h1.vv{
+    font-size: 250px;
+  }
+  body .logo h1.yy{
+    margin-right: -50px;
+  }
+  body .logo h1.vv{
+    margin-left: -50px;
+  }
+  body .logo .cross{
+   min-width: 100px;
+   width: 120px;
+   height: 150px;
+  }
+}

@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "Tahoma";
+  background: rgb(45, 90, 158);
+  color: #efefef;
+  padding-bottom: 100px;
+
+  
+}
+
+.all{
+  width: 100%;
+}
+
+.cent{
+  overflow: hidden;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.logo{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin: 0px;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  min-width: 320px;
+  margin: 0 auto;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  padding-bottom: 50px;
+  
+
+
+}
+.logo .cross{
+  background: url(cross.png) no-repeat bottom;
+  background-position: 50% 0;
+  background-size: cover;
+  width: 150px;
+  height: 200px;
+  min-width: 150px;
+  position: relative;
+  top: 30px;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+
+ 
+}
+.logo h1.yy, .logo h1.vv{
+  font-size: 350px;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+  text-shadow: 20px 20px 5px #293E5C;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+
+}
+.logo h1.yy{
+  margin-right: -60px;
+  -webkit-transform: translateX(-200%);
+          transform: translateX(-200%);
+  opacity: 0;
+  
+}
+.logo h1.vv{
+  margin-left: -60px;
+  -webkit-transform: translateX(200%);
+          transform: translateX(200%);
+  opacity: 0;
+
+}
+
+.cent .logo .vv2{
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+  opacity: 1;
+}
+.cent .logo .yy2{
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+  opacity: 1;
+}
+
+
+/* СТИХ ИЗ БИБЛИИ */
+.bottom{
+  width: 60%;
+  margin: 80px auto;
+}
+
+.bottom h2{
+  font-weight: 100;
+  color: rgba(255, 255, 255, 0.753);
+  text-align: center;
+  opacity: 0;
+}
+
+.bottom h2 span{
+  text-align: right;
+  display: block;
+}
+
+
+.all h4{
+  color: #efefef;
+  font-weight: 100;
+  padding: 20px 0;
+  text-align: center;
+  margin: 0px auto ;
+  letter-spacing: 20px;
+  font-size: 14px;
+  opacity: 0;
+
+
+
+}
+.aboutUs{
+  width: 80%;
+  margin: 0 auto;
+  background: rgb(38, 78, 138);
+  height: 300px;
+  -webkit-box-shadow: 0px 0px px 0px #1b1b1b;
+          box-shadow: 0px 0px px 0px #1b1b1b;
+  padding: 30px;
+  position: relative;
+  opacity: 0;
+}
+
+.aboutUs h2{
+  text-align: left;
+  font-weight: 100;
+  padding: 0 0 5px 0;
+  margin: 0;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: block;
+ 
+}
+
+.aboutUs h2::after{
+  content: '';
+  position: relative;
+  display: block;
+  width: 80%;
+  height: 1px;
+  top: 5px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.219);
+  margin: 0 auto;
+} 
