@@ -59,5 +59,9 @@ window.onload = function() {
     if (top > 350) {
       $(".aboutUs").classList.add("fadeIn");
     }
+   
+    if (top > 800) {
+      $(".foot_cont").classList.add("fadeIn");
+    }
   }
 };
