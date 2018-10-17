@@ -181,6 +181,17 @@ width: auto;
   border-bottom: 1px solid rgba(255, 255, 255, 0.219);
   margin: 0 auto;
 } 
+
+.contactUs_cont h2::after{
+  content: '';
+  position: relative;
+  display: block;
+  width: 80%;
+  height: 1px;
+  top: 5px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.219);
+  margin: 0 auto;
+} 
 .contactUs_cont a{
   color: rgb(255, 255, 255);
     transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 2)
@@ -261,6 +272,7 @@ transform: scale(1.1);
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 6px;
 }
 
 .centInst{
@@ -321,8 +333,7 @@ background: #fff;
 
 
  .logoF{
-   width: 35px;
-  
+ width: 35px;
 display: flex;
 justify-content: space-around;
 align-items: center;
@@ -333,13 +344,13 @@ opacity: 0.9;
   
 }
 .logoF .cross{
-  background:  url(../img/cross.png) no-repeat center;
-  width: 20px;
-  height: 20px;
+  background:  url(../img/crossFoot.png) no-repeat center;
+  width: 15px;
+  height: 15px;
   background-size: contain;
   position: absolute;
- top: 20px;
-padding-right: 7px;
+ top: 25px;
+right: 11px;
 }
 .logoF h1{
   padding: 0;margin: 0;
