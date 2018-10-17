@@ -154,7 +154,7 @@ width: auto;
   margin: 0px auto;
 }
 .aboutUs_cont p, .contactUs_cont p{
-  color: rgba(233, 239, 239, 0.911);  
+  color: rgb(221, 221, 221);  
   font-size: 16px;
 }
 
@@ -168,6 +168,7 @@ width: auto;
   width: -moz-fit-content;
   width: fit-content;
   display: block;
+  color: rgb(221, 221, 221); 
 }
 
 .aboutUs h2::after{
@@ -181,7 +182,7 @@ width: auto;
   margin: 0 auto;
 } 
 .contactUs_cont a{
-    color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
     transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 2)
 }
 .contactUs_cont a:hover{
