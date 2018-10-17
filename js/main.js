@@ -31,6 +31,8 @@
   color(arrayColor[random]);
 })();
 
+
+
 window.onload = function() {
   $(".yy").classList.add("yy2");
 
@@ -51,7 +53,12 @@ window.onload = function() {
 
   function scrollHeadndler() {
     let top = window.pageYOffset;
+   let  screenHeight = window.screen.availHeight;
+   let allHeight = $(".all").clientHeight;
 
+    
+   
+    cl("top= " + top)
     if (top > 100) {
       $(".txt").classList.add("fadeIn");
     }
@@ -61,6 +68,10 @@ window.onload = function() {
     }
    
     if (top > 800) {
+      $(".contactUs").classList.add("fadeIn");
+    }
+   
+    if (allHeight- screenHeight - top <=40 ) {
       $(".foot_cont").classList.add("fadeIn");
     }
   }

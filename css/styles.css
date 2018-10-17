@@ -138,24 +138,27 @@ width: auto;
   display: block;
 }
 
-.aboutUs{
+.aboutUs, .contactUs {
   width: 100%;
   margin: 0 auto;
-  height: 400px;
   -webkit-box-shadow: 0px 0px px 0px #1b1b1b;
           box-shadow: 0px 0px px 0px #1b1b1b;
   position: relative;
   opacity: 0;
-  margin-bottom: 200px;
+  
 }
 
-.aboutUs_cont{
+.aboutUs_cont, .contactUs_cont{
   width: 80%;
-  padding: 80px 0;
+  padding: 140px 0;
   margin: 0px auto;
 }
+.aboutUs_cont p, .contactUs_cont p{
+  color: rgba(233, 239, 239, 0.911);  
+  font-size: 16px;
+}
 
-.aboutUs h2{
+.aboutUs h2, .contactUs_cont h2{
   text-align: left;
   font-weight: 100;
   padding: 0 0 5px 0;
@@ -177,8 +180,13 @@ width: auto;
   border-bottom: 1px solid rgba(255, 255, 255, 0.219);
   margin: 0 auto;
 } 
-
-
+.contactUs_cont a{
+    color: rgb(255, 255, 255);
+    transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 2)
+}
+.contactUs_cont a:hover{
+text-shadow: 0px 0px 10px #fff;
+}
 
 .footer .foot_cont{
   width: 80%;
@@ -312,13 +320,15 @@ background: #fff;
 
 
  .logoF{
-   width: 40px;
+   width: 35px;
+  
 display: flex;
 justify-content: space-around;
 align-items: center;
 padding: 0;
 margin: 0;
 position: relative;
+opacity: 0.9;
   
 }
 .logoF .cross{
@@ -328,8 +338,9 @@ position: relative;
   background-size: contain;
   position: absolute;
  top: 20px;
-padding-right: 6px;
+padding-right: 7px;
 }
 .logoF h1{
   padding: 0;margin: 0;
+
 }
