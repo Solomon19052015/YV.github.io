@@ -212,7 +212,7 @@ width: auto;
   margin: 0 auto;
 } 
 .contactUs_cont a{
-  
+  color: #fff;
     transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 2)
 }
 .contactUs_cont a:hover{
