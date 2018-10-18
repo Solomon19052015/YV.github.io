@@ -1,19 +1,26 @@
 @font-face {
-  font-family: "Tahoma"; /* Имя шрифта */
-  src: url(../fonts/9688.ttf); /* Путь к файлу со шрифтом */
+  font-family: "Roboto Lt"; /* Имя шрифта */
+  src: url(../fonts/Roboto-Light.ttf); /* Путь к файлу со шрифтом */
+ }
+@font-face {
+  font-family: "Roboto"; /* Имя шрифта */
+  src: url(../fonts/Roboto-Bold.ttf); /* Путь к файлу со шрифтом */
  }
 
 body {
   margin: 0;
   padding: 0;
   font-size: 16px;
-  font-family: "Tahoma";
-  color: rgb(221, 221, 221);  
+  color: rgb(255, 255, 255);  
 
 
   
 }
-
+p,h1,h2,h3,h4,a{
+  font-family: "Roboto Lt";
+  font-weight: 100;
+  color: #e7e7e7e3;
+}
 /* КЛАСС ЭФФЕКТ */
 .fadeIn{
   opacity: 1;
@@ -25,10 +32,9 @@ body {
 }
 
 .a{
-  color: #efefef;
+ text-align: center;
   font-weight: 100;
-  padding: 20px 0;
-  text-align: center;
+  padding: 20px 0px;
   margin: 0px auto ;
   letter-spacing: 20px;
   font-size: 14px;
@@ -80,9 +86,8 @@ body {
   transition: all 0.5s ease-in;
   margin-left: 12px;
 
-
- 
 }
+
 .logo h1.yy, .logo h1.vv{
   font-size: 350px;
   font-weight: 600;
@@ -91,6 +96,7 @@ body {
   text-shadow: 20px 20px 5px rgba(58, 58, 58, 0.534);
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.075);
   width: 120px;
+  font-family: "Roboto";
 
 }
 .logo h1.yy{
@@ -122,8 +128,11 @@ width: auto;
 
 /* СТИХ ИЗ БИБЛИИ */
 .bottom{
-  width: 60%;
-  margin: 80px auto;
+  width: 55%;
+  margin: 30px 20px 80px auto;
+
+
+  
 }
 
 
@@ -132,14 +141,17 @@ width: auto;
   text-align: right;
   opacity: 0;
   font-weight: 100;
+  font-size: 15px;
+  padding-right: 0px;
+
 }
-.bottom h2{
-  color: rgb(221, 221, 221);  
-  margin: 0;
+.bottom h2 {
+  text-align: right;
+  margin: 0 0px 0 auto;
   padding: 0;
   font-weight: 100;
-  text-align: center;
-  opacity: 0;
+   opacity: 0;
+  font-size: 16px;
 }
 
 .aboutUs, .contactUs {
@@ -158,8 +170,9 @@ width: auto;
   margin: 0px auto;
 }
 .aboutUs_cont p, .contactUs_cont p{
-  color: rgb(221, 221, 221);  
-  font-size: 16px;
+  
+  font-size: 17px;
+  line-height: 1.2;
 }
 
 .aboutUs h2, .contactUs_cont h2{
@@ -172,7 +185,9 @@ width: auto;
   width: -moz-fit-content;
   width: fit-content;
   display: block;
-  color: rgb(221, 221, 221); 
+  font-size: 30px;
+  font-weight: 300;
+
 }
 
 .aboutUs h2::after{
@@ -197,7 +212,7 @@ width: auto;
   margin: 0 auto;
 } 
 .contactUs_cont a{
-  color: rgb(255, 255, 255);
+  
     transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 2)
 }
 .contactUs_cont a:hover{
@@ -218,13 +233,13 @@ text-shadow: 0px 0px 10px #fff;
 .footer .foot_cont p {
   margin: 0;padding: 0;
   font-size: 14px;
-  color: rgb(221, 221, 221); ;
+  color: rgb(255, 255, 255); ;
  
 }
 
 .footer .foot_cont .addres{
   min-width: 215px;
-  color: rgb(221, 221, 221); ;
+
 }
 .footer .foot_cont .icons{
   min-width: 300px;
@@ -346,7 +361,11 @@ padding: 0;
 margin: 0;
 position: relative;
 opacity: 0.9;
+
   
+}
+.logoF h1{
+  font-family: "Roboto";
 }
 .logoF .cross{
   background:  url(../img/crossFoot.png) no-repeat center;
